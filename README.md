@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -68,11 +67,11 @@
 
 <h3 id="загрузка">Загрузка</h3>
 
-<p>Для начала работы необходимо загрузить следующие файлы:</p>
+<p>Для начала работы необходимо загрузить следующие файлы из текущего репозитория:</p>
 
 <ol>
-<li>AdCampSDK для iOS по ссылке: <a href="http://sdk.adcamp.ru/adcamp-sdk-ios.zip">http://sdk.adcamp.ru/adcamp-sdk-ios.zip</a></li>
-<li>Проект демонстрационного приложения по ссылке: <a href="http://tst.adcamp.ru/adcamp/ios/adcamp-examples.zip">http://tst.adcamp.ru/adcamp/ios/adcamp-examples.zip</a> <br>
+<li>AdCampSDK для iOS</li>
+<li>Проект демонстрационного приложения<br>
 Данный пример содержит все варианты использования SDK и его можно использовать как практическое пособие при встраивании sdk в ваше собственное приложение</li>
 </ol>
 

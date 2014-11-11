@@ -1,0 +1,1 @@
+#define ADCAMP_VERSION (168)
