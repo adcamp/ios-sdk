@@ -164,8 +164,8 @@
 <pre class="prettyprint"><code class="language-{.objectivec} hljs fix"><span class="hljs-attribute">ADCBannerView *bannerView </span>=<span class="hljs-string"> [[ADCBannerView alloc] initWithFrame:CGRectMake(0, 0, width, height)]
 [self.view addSubview:bannerView];</span></code></pre>
 
-<p>где 0,0 - это координаты расположения, а width, height - размеры рекламной области <br>
-Указываем идентификатор размещения баннера Placement ID (идентификатор вы сможете получить по запросу на электронной почте account@adcamp.ru в письме необходимо указать название площадки и тип плейсмента)</p>
+<p>где 0,0 - это координаты расположения, а width, height - размеры рекламной области. <br>
+Указываем идентификатор размещения баннера Placement ID (идентификатор вы сможете получить по запросу на электронной почте <a href="mailto:account@adcamp.ru">account@adcamp.ru</a> в письме необходимо указать название площадки и тип плейсмента)</p>
 
 
 
