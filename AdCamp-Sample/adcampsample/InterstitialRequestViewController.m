@@ -8,25 +8,34 @@
 
 #import "InterstitialRequestViewController.h"
 
-#import <ADCampSDK/ADCampSDK.h>
-
 @interface InterstitialRequestViewController ()
 
 @end
 
-@implementation InterstitialRequestViewController {
-    ADCRequest *request;
+@implementation InterstitialRequestViewController
+{
+    ADCInterstitialViewController *interstitialController_;
 }
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-
-    request = [ADCRequest fullscreenBannerRequestWithPlacementID:@"393058cf-ea48-4ccb-8a05-d4fca4022f25"];
-    [request runAsInterstitialFromRootViewController:self];
+    
+    interstitialController_ = [[ADCInterstitialViewController alloc] init];
+    interstitialController_.placementID = @"7";
+    interstitialController_.delegate = self;
+    [interstitialController_ start];
 }
 
-- (void)dealloc {
-    [request cancel];
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+}
+
+
+- (void)interstitialControllerDidReceiveAd:(ADCInterstitialViewController *)interstitial
+{
+    [interstitial presentFromRootViewController:self];
 }
 
 @end

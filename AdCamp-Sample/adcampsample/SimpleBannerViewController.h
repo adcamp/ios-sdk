@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SimpleBannerViewController : UIViewController
+#import <ADCampSDK/ADCampSDK.h>
+
+@interface SimpleBannerViewController : UIViewController<ADCBannerViewDelegate>
 
 @end

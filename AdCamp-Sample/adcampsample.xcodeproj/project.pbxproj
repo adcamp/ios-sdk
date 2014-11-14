@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		250344C51807D60800B555B8 /* MixedAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250344C41807D60800B555B8 /* MixedAdViewController.m */; };
 		250DAAFC18BC779300772742 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250DAAFB18BC779300772742 /* CoreTelephony.framework */; };
 		250DAB0018BC77A900772742 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250DAAFF18BC77A900772742 /* EventKitUI.framework */; };
 		250DAB0118BC77CD00772742 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250DAAFD18BC779900772742 /* EventKit.framework */; };
@@ -21,10 +20,7 @@
 		255FF818179EC23B00E203D9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 255FF817179EC23B00E203D9 /* Default.png */; };
 		255FF81A179EC23B00E203D9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 255FF819179EC23B00E203D9 /* Default@2x.png */; };
 		255FF81C179EC23B00E203D9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 255FF81B179EC23B00E203D9 /* Default-568h@2x.png */; };
-		255FF839179EC87300E203D9 /* BannerRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255FF824179EC87200E203D9 /* BannerRequestViewController.m */; };
 		255FF83B179EC87300E203D9 /* UseCasesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255FF827179EC87300E203D9 /* UseCasesController.m */; };
-		255FF83C179EC87300E203D9 /* ORTBBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255FF829179EC87300E203D9 /* ORTBBannerViewController.m */; };
-		255FF83F179EC87300E203D9 /* InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255FF82D179EC87300E203D9 /* InterstitialViewController.m */; };
 		255FF840179EC87300E203D9 /* SimpleBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255FF831179EC87300E203D9 /* SimpleBannerViewController.m */; };
 		255FF855179EC91000E203D9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255FF854179EC91000E203D9 /* Security.framework */; };
 		255FF857179EC91600E203D9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255FF856179EC91600E203D9 /* CFNetwork.framework */; };
@@ -49,14 +45,10 @@
 		25CB4EBE180C2A3E00E2185D /* Icon~ios7@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 25CB4EBD180C2A3E00E2185D /* Icon~ios7@2x~ipad.png */; };
 		25D6294E17E854E000E5D059 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D6294D17E854E000E5D059 /* MessageUI.framework */; };
 		25D6295217E8551700E5D059 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D6295117E8551700E5D059 /* AudioToolbox.framework */; };
-		25E080781966CB900062CB75 /* TableBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E080771966CB900062CB75 /* TableBannerViewController.m */; };
 		25E0807B1966EBF40062CB75 /* InterstitialRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E0807A1966EBF40062CB75 /* InterstitialRequestViewController.m */; };
-		25E080C3196A91130062CB75 /* FullscreenVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E080C2196A91130062CB75 /* FullscreenVideoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		250344C31807D60800B555B8 /* MixedAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixedAdViewController.h; sourceTree = "<group>"; };
-		250344C41807D60800B555B8 /* MixedAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixedAdViewController.m; sourceTree = "<group>"; };
 		250DAAFB18BC779300772742 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		250DAAFD18BC779900772742 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		250DAAFF18BC77A900772742 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
@@ -73,16 +65,10 @@
 		255FF817179EC23B00E203D9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		255FF819179EC23B00E203D9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		255FF81B179EC23B00E203D9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		255FF824179EC87200E203D9 /* BannerRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerRequestViewController.m; sourceTree = "<group>"; };
 		255FF827179EC87300E203D9 /* UseCasesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UseCasesController.m; sourceTree = "<group>"; };
-		255FF828179EC87300E203D9 /* BannerRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerRequestViewController.h; sourceTree = "<group>"; };
-		255FF829179EC87300E203D9 /* ORTBBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORTBBannerViewController.m; sourceTree = "<group>"; };
-		255FF82D179EC87300E203D9 /* InterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialViewController.m; sourceTree = "<group>"; };
 		255FF82E179EC87300E203D9 /* SimpleBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleBannerViewController.h; sourceTree = "<group>"; };
 		255FF831179EC87300E203D9 /* SimpleBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleBannerViewController.m; sourceTree = "<group>"; };
-		255FF833179EC87300E203D9 /* InterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitialViewController.h; sourceTree = "<group>"; };
 		255FF834179EC87300E203D9 /* UseCasesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseCasesController.h; sourceTree = "<group>"; };
-		255FF835179EC87300E203D9 /* ORTBBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORTBBannerViewController.h; sourceTree = "<group>"; };
 		255FF854179EC91000E203D9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		255FF856179EC91600E203D9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		255FF858179EC91C00E203D9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -95,8 +81,8 @@
 		255FF868179EC96A00E203D9 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		255FF86A179ECA0100E203D9 /* UIScreen+Orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Orientation.h"; sourceTree = "<group>"; };
 		255FF86B179ECA0200E203D9 /* UIScreen+Orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Orientation.m"; sourceTree = "<group>"; };
-		2571A054196FDE93001A09E9 /* ADCampSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ADCampSDK.framework; path = ADCampSDK.embeddedframework/ADCampSDK.framework; sourceTree = SOURCE_ROOT; };
-		2571A056196FDE93001A09E9 /* adcampResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = adcampResources.bundle; path = ADCampSDK.embeddedframework/Resources/adcampResources.bundle; sourceTree = SOURCE_ROOT; };
+		2571A054196FDE93001A09E9 /* ADCampSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ADCampSDK.framework; path = Frameworks/ADCampSDK.embeddedframework/ADCampSDK.framework; sourceTree = SOURCE_ROOT; };
+		2571A056196FDE93001A09E9 /* adcampResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = adcampResources.bundle; path = Frameworks/ADCampSDK.embeddedframework/Resources/adcampResources.bundle; sourceTree = SOURCE_ROOT; };
 		25BD66BA17B39E8700C3A088 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25BD66D717B4E0EE00C3A088 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AdCampLocalizable.strings; sourceTree = "<group>"; };
 		25BD66D817B4E0EE00C3A088 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/AdCampLocalizable.strings; sourceTree = "<group>"; };
@@ -110,12 +96,8 @@
 		25CB4EBF180C2ABD00E2185D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		25D6294D17E854E000E5D059 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		25D6295117E8551700E5D059 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		25E080761966CB900062CB75 /* TableBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableBannerViewController.h; sourceTree = "<group>"; };
-		25E080771966CB900062CB75 /* TableBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableBannerViewController.m; sourceTree = "<group>"; };
 		25E080791966EBF40062CB75 /* InterstitialRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitialRequestViewController.h; sourceTree = "<group>"; };
 		25E0807A1966EBF40062CB75 /* InterstitialRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialRequestViewController.m; sourceTree = "<group>"; };
-		25E080C1196A91130062CB75 /* FullscreenVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullscreenVideoViewController.h; sourceTree = "<group>"; };
-		25E080C2196A91130062CB75 /* FullscreenVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullscreenVideoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,15 +131,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		250344C21807D5DE00B555B8 /* mixed */ = {
-			isa = PBXGroup;
-			children = (
-				250344C31807D60800B555B8 /* MixedAdViewController.h */,
-				250344C41807D60800B555B8 /* MixedAdViewController.m */,
-			);
-			name = mixed;
-			sourceTree = "<group>";
-		};
 		255FF7F9179EC23B00E203D9 = {
 			isa = PBXGroup;
 			children = (
@@ -242,9 +215,7 @@
 			children = (
 				255FF834179EC87300E203D9 /* UseCasesController.h */,
 				255FF827179EC87300E203D9 /* UseCasesController.m */,
-				25D6297F17E9903200E5D059 /* video ad */,
 				25D6297E17E97E3100E5D059 /* banners */,
-				250344C21807D5DE00B555B8 /* mixed */,
 			);
 			name = samples;
 			sourceTree = "<group>";
@@ -280,27 +251,10 @@
 			children = (
 				255FF82E179EC87300E203D9 /* SimpleBannerViewController.h */,
 				255FF831179EC87300E203D9 /* SimpleBannerViewController.m */,
-				25E080761966CB900062CB75 /* TableBannerViewController.h */,
-				25E080771966CB900062CB75 /* TableBannerViewController.m */,
-				255FF833179EC87300E203D9 /* InterstitialViewController.h */,
-				255FF82D179EC87300E203D9 /* InterstitialViewController.m */,
 				25E080791966EBF40062CB75 /* InterstitialRequestViewController.h */,
 				25E0807A1966EBF40062CB75 /* InterstitialRequestViewController.m */,
-				255FF835179EC87300E203D9 /* ORTBBannerViewController.h */,
-				255FF829179EC87300E203D9 /* ORTBBannerViewController.m */,
-				255FF828179EC87300E203D9 /* BannerRequestViewController.h */,
-				255FF824179EC87200E203D9 /* BannerRequestViewController.m */,
 			);
 			name = banners;
-			sourceTree = "<group>";
-		};
-		25D6297F17E9903200E5D059 /* video ad */ = {
-			isa = PBXGroup;
-			children = (
-				25E080C1196A91130062CB75 /* FullscreenVideoViewController.h */,
-				25E080C2196A91130062CB75 /* FullscreenVideoViewController.m */,
-			);
-			name = "video ad";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,7 +287,7 @@
 				ORGANIZATIONNAME = Sebbia;
 				TargetAttributes = {
 					255FF801179EC23B00E203D9 = {
-						DevelopmentTeam = ZK6729RA4K;
+						DevelopmentTeam = HFGLRDP3PF;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
 								enabled = 0;
@@ -388,16 +342,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				250344C51807D60800B555B8 /* MixedAdViewController.m in Sources */,
 				255FF812179EC23B00E203D9 /* main.m in Sources */,
-				25E080C3196A91130062CB75 /* FullscreenVideoViewController.m in Sources */,
 				255FF816179EC23B00E203D9 /* AppDelegate.m in Sources */,
-				255FF839179EC87300E203D9 /* BannerRequestViewController.m in Sources */,
 				255FF83B179EC87300E203D9 /* UseCasesController.m in Sources */,
 				25E0807B1966EBF40062CB75 /* InterstitialRequestViewController.m in Sources */,
-				255FF83C179EC87300E203D9 /* ORTBBannerViewController.m in Sources */,
-				25E080781966CB900062CB75 /* TableBannerViewController.m in Sources */,
-				255FF83F179EC87300E203D9 /* InterstitialViewController.m in Sources */,
 				255FF840179EC87300E203D9 /* SimpleBannerViewController.m in Sources */,
 				255FF86C179ECA0200E203D9 /* UIScreen+Orientation.m in Sources */,
 			);
@@ -488,35 +436,11 @@
 		255FF820179EC23B00E203D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/ADCampSDK.embeddedframework",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "adcampsample/adcampsample-Prefix.pch";
-				GCC_VERSION = "";
-				INFOPLIST_FILE = "adcampsample/adcampsample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SDKROOT)/usr/lib/system\"",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ED0E37FD-1EE2-4B42-9EC7-1D07D6AEC710";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		255FF821179EC23B00E203D9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/ADCampSDK.embeddedframework",
+					"$(PROJECT_DIR)/Frameworks/ADCampSDK.embeddedframework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "adcampsample/adcampsample-Prefix.pch";
@@ -529,7 +453,31 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AE09D247-4894-4C76-8D20-32495B73ABEC";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		255FF821179EC23B00E203D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/ADCampSDK.embeddedframework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "adcampsample/adcampsample-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "adcampsample/adcampsample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

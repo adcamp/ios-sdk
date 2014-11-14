@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface InterstitialRequestViewController : UIViewController
+#import <ADCampSDK/ADCampSDK.h>
+
+@interface InterstitialRequestViewController : UIViewController<ADCInterstitialViewControllerDelegate>
 
 @end

@@ -8,9 +8,7 @@
 
 #import "SimpleBannerViewController.h"
 
-#import <ADCampSDK/ADCampSDK.h>
-
-@interface SimpleBannerViewController () <ADCPlayerDelegate>
+@interface SimpleBannerViewController ()
 
 @end
 
@@ -42,11 +40,11 @@
     
 	bannerView = [[ADCBannerView alloc] initWithFrame:CGRectZero];
     bannerView.delegate = self;
-    bannerView.placementID = @"a01892d1-6aed-486b-8bf0-a2b65a821b63";
+    bannerView.placementID = @"5";
     [self adjustLayout];
 	[self.view addSubview:bannerView];
     
-    [bannerView startWithChangeTimeInterval:20];
+    [bannerView start];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -76,12 +74,20 @@
 
 #pragma mark - ADCPlayerDelegate
 
-- (void)player:(id<ADCPlayer>)player willStartAd:(ADCAdvertising *)ad {
+- (void)bannerViewWillStartAd:(ADCBannerView *)bannerView
+{
     [self adjustLayout];
 }
 
-- (void)player:(id<ADCPlayer>)player didFinishAd:(ADCAdvertising *)ad {
+- (void)bannerViewDidFailToPlayAd:(ADCBannerView *)bannerView withError:(ADCError *)error
+{
     [self adjustLayout];
 }
+
+- (void)bannerViewDidFinishAd:(ADCBannerView *)bannerView
+{
+    [self adjustLayout];
+}
+
 
 @end

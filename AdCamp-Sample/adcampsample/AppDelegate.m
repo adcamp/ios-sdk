@@ -16,16 +16,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
-    ADCAdsManager *adManager = [ADCAdsManager sharedManager];
-	[adManager setAppId:@"51f642af-d1d1-488f-bb64-457441cabeb4"];
-	[adManager setAppSecret:@"f521050a-ebfe-4b32-863c-3c7d148d8685"];
-    
-	[adManager addAdditionalNetwork:[ADCAdditionalNetwork adMobNetwork]
-						 withConfig:[ADCAdMobNetworkConfig configWithPublisherID:@"a15236e76045b13"
-																	 testDevices:[NSArray arrayWithObject:@"ee5a1e6992eb36e8ebd599907f6edae1"]]];
-	
-	adcloglevel = ADCLogFatal | ADCLogError | ADCLogWarn | ADCLogDebug;// | ADCLogVerbose;
-	ADCLogD(@"log level %ld", adcloglevel);
+    [ADCAdsManager sharedManagerWithCredentials:@{ADCCredentialLocation:@NO}];
 
 	self.useCasesController = [[UseCasesController alloc] init];
 	self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:self.useCasesController];

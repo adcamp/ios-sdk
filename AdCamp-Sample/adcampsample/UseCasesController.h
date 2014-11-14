@@ -10,6 +10,6 @@
 
 #import <ADCampSDK/ADCampSDK.h>
 
-@interface UseCasesController : UITableViewController <ADCRequestDelegate, ADCAdvertisingCacheDelegate, UIActionSheetDelegate>
+@interface UseCasesController : UITableViewController <UIActionSheetDelegate>
 
 @end
